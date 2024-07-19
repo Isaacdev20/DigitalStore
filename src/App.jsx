@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./components/Header"
+import Layout from "./components/Layout"
+import Footer from "./components/Footer"
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <div>
-      <p className='text-5xl text-red-500   '>Hello</p>
-     </div>
+
+        <Layout>
+          <h1>teste para saber se ficca no meio</h1>
+        </Layout>
+
     </>
   )
 }
