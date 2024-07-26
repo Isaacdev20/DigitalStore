@@ -1,3 +1,4 @@
+import {Search} from 'lucide-react'
 import Header from "./Header"
 import Footer from "./Footer"
 
@@ -7,7 +8,7 @@ export default function Layout({children}){
         <>
         
            <Header>
-                <h1>Esse e o header</h1>
+                
            </Header>
 
             <div>
